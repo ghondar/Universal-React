@@ -1,10 +1,10 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Saludo from './components/Saludo.jsx'
+import App from './containers/App.jsx'
 
 let props = {}
 
 if(window.__DATA__)
   props = JSON.parse(window.__DATA__)
 
-render(<Saludo {...props} />, document.getElementById('main'))
+render(<App {...props} />, document.getElementById('main'))
