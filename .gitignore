@@ -1,0 +1,8 @@
+.DS_Store
+dist/**
+static
+node_modules/
+bower_components/
+*.log
+.idea
+cache/
